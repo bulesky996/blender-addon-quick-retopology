@@ -127,22 +127,22 @@ class ComfyRetopoProperties(bpy.types.PropertyGroup):
     # 重拓撲／減面引擎模式 (v2.2.1 橫向三格按鈕式切換)
     retopo_engine: bpy.props.EnumProperty(
         name="減面引擎 (Engine)",
-        description="依模型用途一鍵切換：要最保本體細節選 QEM 保真；要手動編修循環邊選純四邊 (Instant Meshes)",
+        description="依模型用途一鍵切換：要最保本體細節選智慧減面；要手動編修循環邊選純四邊 (Instant Meshes)",
         items=[
             (
                 'QEM_PRESERVE',
-                "⚡ QEM保真",
-                "預設引擎：3~5 秒極速減面，99.96% 保留原始銳利夾角與細節，最適合電商展示、渲染與遊戲引擎",
+                "⚡ 智慧減面",
+                "預設模式：3~5 秒極速智慧減面，自動保留銳利夾角與細節，最適合直接渲染、展示與匯出遊戲引擎",
             ),
             (
                 'INSTANT_MESHES',
                 "📐 純四邊",
-                "Instant Meshes 全品類引擎：3 秒產出 100% 純四邊形循環邊與 0 破洞，最適合手動微調造型與展 UV",
+                "Instant Meshes 全品類引擎：3 秒順著稜線鋪出 100% 純四邊形循環邊並自動補洞，最適合手動微調與展 UV",
             ),
             (
                 'VOXEL_QUADRIFLOW',
-                "🧱 體素保底",
-                "經典 Voxel + QuadriFlow 保底流程：專治多部件交錯或內部嚴重破洞的 AI 生成模型",
+                "🧱 傳統減面",
+                "經典體素重建 + QuadriFlow 流程：專治結構碎裂、多部件交錯或內部嚴重破洞的 AI 模型",
             ),
         ],
         default='QEM_PRESERVE',

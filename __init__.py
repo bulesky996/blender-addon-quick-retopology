@@ -10,7 +10,7 @@ bl_info = {
     "version": (2, 2, 1),
     "blender": (3, 6, 0),
     "location": "View3D > Sidebar (N面板) > Quick Retopology",
-    "description": "Blender 高模一鍵清理、尺寸校準與三引擎減面重拓撲插件 (智慧保真減面 / 純四邊形 / 體素保底)",
+    "description": "Blender 高模一鍵清理、尺寸校準與三引擎減面重拓撲插件 (智慧減面 / 純四邊形 / 傳統減面)",
     "doc_url": "https://github.com/bulesky996/blender-addon-quick-retopology",
     "category": "Mesh",
 }

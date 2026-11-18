@@ -133,9 +133,9 @@ class COMFY_PT_furniture_retopo_panel(bpy.types.Panel):
         eng_row.prop(props, "retopo_engine", expand=True)
 
         engine_hints = {
-            'QEM_PRESERVE': "💡 最保銳利夾角與本體細節 (99.96%)，適合電商渲染交件",
-            'INSTANT_MESHES': "💡 全品類 100% 純四邊形循環邊，適合手動微調與展 UV",
-            'VOXEL_QUADRIFLOW': "💡 傳統體素重拓撲保底，專治嚴重破洞／多部件 AI 模型",
+            'QEM_PRESERVE': "💡 智慧保留銳利夾角與本體細節，適合直接渲染與展示",
+            'INSTANT_MESHES': "💡 順著稜線鋪出 100% 純四邊形循環邊，適合手動微調與展 UV",
+            'VOXEL_QUADRIFLOW': "💡 傳統體素重網格流程，專治嚴重破洞／多部件交錯 AI 模型",
         }
         hint_row = box2.row()
         hint_row.label(text=engine_hints.get(props.retopo_engine, ""))
