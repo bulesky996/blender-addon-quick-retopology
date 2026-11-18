@@ -1,7 +1,7 @@
-# 🛋️ Quick Retopology v2 (`v2.2.1`)
+# 🧩 [Blender Add-on / Blender 插件] Quick Retopology v2 (`v2.2.1`)
 
-> **One-Click Tri-Engine Retopology, Dimension Locking & 3D Ruler Add-on for Blender 3.6 – 4.5+**  
-> 專為 AI 生成 3D 模型（ComfyUI / Trellis / Tripo / Meshy）與電商家具產線打造的一鍵清洗、減面重拓撲、真實尺寸鎖定與貼圖烘焙工具。
+> **Blender 3.6 – 4.5+ 專用｜一鍵三引擎減面重拓撲、真實尺寸鎖定與 3D 工程標尺插件**  
+> One-Click Tri-Engine Retopology, Dimension Locking & 3D Ruler Add-on for **Blender 3.6 – 4.5+** (built for AI 3D models from ComfyUI / Trellis / Tripo / Meshy & e-commerce furniture pipelines).
 
 [![Blender](https://img.shields.io/badge/Blender-3.6%20~%204.5%2B-orange?logo=blender)](https://www.blender.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](./LICENSE)

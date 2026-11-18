@@ -11,7 +11,7 @@ bl_info = {
     "blender": (3, 6, 0),
     "location": "View3D > Sidebar (N面板) > Quick Retopology",
     "description": "ComfyUI 電商家具重拓撲神器 v2.2.1：三引擎按鈕式切換 + 左側防遮擋 Y 軸標尺",
-    "doc_url": "https://github.com/bulesky996/quick-retopology-v2",
+    "doc_url": "https://github.com/bulesky996/blender-addon-quick-retopology",
     "category": "Mesh",
 }
 
