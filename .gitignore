@@ -1,0 +1,20 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime logs & temp files
+*.log
+*.tmp
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Blender backup & archive files
+*.blend1
+*.blend2
+*.zip
+*.rar
